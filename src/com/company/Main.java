@@ -15,7 +15,7 @@ public class Main {
         } while( !isValid(height) );
 
         for (int i = 0; i < height; i++) {
-            for (int j = 0; j < height - i; j++) {
+            for (int j = 1; j < height - i; j++) {
                 System.out.print(" ");
             }
             for (int k = 0; k <= i; k++) {
